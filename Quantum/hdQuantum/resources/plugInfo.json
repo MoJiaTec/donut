@@ -1,0 +1,22 @@
+{
+    "Plugins": [
+        {
+            "Info": {
+                "Types": {
+                    "HdQuantumRendererPlugin": {
+                        "bases": [
+                            "HdRendererPlugin"
+                        ],
+                        "displayName": "Quantum",
+                        "priority": 10
+                    }
+                }
+            },
+            "LibraryPath": "../hdQuantum.dll",
+            "Name": "hdQuantum",
+            "ResourcePath": "resources",
+            "Root": "..",
+            "Type": "library"
+        }
+    ]
+}

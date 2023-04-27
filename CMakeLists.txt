@@ -82,3 +82,5 @@ if (DONUT_WITH_UNIT_TESTS)
     include(CTest)
     add_subdirectory(tests)
 endif()
+
+add_subdirectory(Quantum)
