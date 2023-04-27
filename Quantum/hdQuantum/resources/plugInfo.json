@@ -7,7 +7,7 @@
                         "bases": [
                             "HdRendererPlugin"
                         ],
-                        "displayName": "Quantum",
+                        "displayName": "Quantum_YARPER",
                         "priority": 10
                     }
                 }
