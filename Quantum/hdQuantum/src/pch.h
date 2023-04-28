@@ -6,17 +6,19 @@
 
 #pragma once
 
-#pragma warning(push)
-#pragma warning(disable : 4244) // disabling type conversion warnings in USD
-#pragma warning(disable : 4305) // disabling type truncation warnings in USD
-#pragma warning(disable : 4127) // disabling const comparison warnings in USD
-#pragma warning(disable : 4201) // disabling nameless struct warnings in USD
-#pragma warning(disable : 4100) // disabling unreferenced parameter warnings in USD
-#pragma warning(disable : 4275) // disabling non dll-interface class used as base for dll-interface class in USD
+//#pragma warning(push)
+//#pragma warning(disable : 4244) // disabling type conversion warnings in USD
+//#pragma warning(disable : 4305) // disabling type truncation warnings in USD
+//#pragma warning(disable : 4127) // disabling const comparison warnings in USD
+//#pragma warning(disable : 4201) // disabling nameless struct warnings in USD
+//#pragma warning(disable : 4100) // disabling unreferenced parameter warnings in USD
+//#pragma warning(disable : 4275) // disabling non dll-interface class used as base for dll-interface class in USD
 
 #include "pxr/pxr.h"
 #include "pxr/base/arch/defines.h"
 
-#pragma warning(pop)
+//#pragma warning(pop)
 
 PXR_NAMESPACE_USING_DIRECTIVE
+
+#include <iostream>

@@ -6,7 +6,7 @@
 #include <Windows.h>
 #endif
 
-#include "rendererPlugin.h"
+#include "HdQuantumRendererPlugin.h"
 #include "pxr/imaging/hd/rendererPluginRegistry.h"
 
 BOOL APIENTRY DllMain( HMODULE hModule,

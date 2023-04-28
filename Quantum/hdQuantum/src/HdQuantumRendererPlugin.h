@@ -9,15 +9,13 @@ public:
     virtual ~HdQuantumRendererPlugin() = default;
 
     virtual HdRenderDelegate *CreateRenderDelegate() override;
-    virtual HdRenderDelegate *CreateRenderDelegate(
-        HdRenderSettingsMap const& settingsMap) override;
+    virtual HdRenderDelegate *CreateRenderDelegate(HdRenderSettingsMap const& settingsMap) override;
 
-    virtual void DeleteRenderDelegate(HdRenderDelegate *renderDelegate) 
-        override;
+    virtual void DeleteRenderDelegate(HdRenderDelegate *renderDelegate) override;
 
     virtual bool IsSupported() const override;
 
 private:
-    HdQuantumRendererPlugin(const HdQuantumRendererPlugin &)             = delete;
+    HdQuantumRendererPlugin(const HdQuantumRendererPlugin &) = delete;
     HdQuantumRendererPlugin &operator =(const HdQuantumRendererPlugin &) = delete;
 };
